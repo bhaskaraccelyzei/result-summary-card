@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="styele.css"  rel="stylesheet"/>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+   
+</head>
+<body class="vh-100">
+<div class="container-fluid w-100 h-100 d-flex justify-content-center align-items-center">
+  <div class="card rounded-5 z-1" style="width: 23rem;">
+    <div class="p-5 result-card h-100 rounded-5">
+    <h5 class="mb-3 fw-bold" style="color: hsl(241, 100%, 89%);">Your Result</h5>
+    <!-- Score div -->
+     <!-- <div class="mt-2 d-flex justify-content-center align-items-center"> -->
+    <div class="score-box" >
+      <!-- <div class="circle" style="border-radius: 50%;margin-top: 25px;"> -->
+      <h1 class="mb-0 fw-bolder" style="font-size: 50px;">76</h1>
+      <small class="small" style="font-size: 12px;color:hsl(241, 100%, 89%) ;">of 100</small>
+    <!-- </div> -->
+    </div>
+  <!-- </div> -->
+    <!-- Content -->
+     <div class="mt-2 text-center">
+      <h4 class="text-light fw-bold">Great</h4>
+      <div class="w-100 d-flex justify-content-center align-items-center">
+      <p class="text-center" style="color: hsl(241, 100%, 89%);font-size: 16px; width: 85%;">You scored higher than 65% of the people who have taken these tests.</p>
+    </div> 
+    </div>
+  </div>
+  </div>
+  <div class="card"  style="width: 26rem;margin-left: -30px !important;border-top-left-radius: 0px;border-top-right-radius: 40px;border-bottom-right-radius: 40px;">
+    <div class="summary-card p-4 ms-5">
+      <h5 class="fw-bold p-3">Summary</h5>
+      <div>
+<!-- Tabs -->
+        <div class="d-flex justify-content-between align-items-center mt-3 p-3  rounded-3" style="background-color: hsla(0, 100%, 67%,0.1);">
+          <div class="d-flex align-items-center mb-0 gap-2" style="color: hsl(0, 100%, 67%)">
+            <img src="./assets/images/icon-reaction.svg" alt="" />
+            <p class="mb-0">Reaction</p>
+          </div>
+            <p class="mb-0" style="color: hsl(241, 100%, 89%);font-weight: bold;"><span class="fw-bold text-dark">80</span> /100</p>
+        </div>
+        <div class="d-flex justify-content-between align-items-center mt-3 p-3  rounded-3" style="background-color: hsla(39, 100%, 56%,0.1);">
+          <div class="d-flex align-items-center mb-0 gap-2" style="color: hsl(39, 100%, 56%)">
+            <img src="./assets/images/icon-memory.svg" alt="" />
+            <p class="mb-0">Memory</p>
+          </div>
+            <p class="mb-0" style="color: hsl(241, 100%, 89%);font-weight: bold;"><span class="fw-bold text-dark">92</span> /100</p>
+        </div>
+        <div class="d-flex justify-content-between align-items-center mt-3 p-3  rounded-3" style="background-color: hsla(166, 100%, 37%,0.1);">
+          <div class="d-flex align-items-center mb-0 gap-2" style="color: hsl(166, 100%, 37%)">
+            <img src="./assets/images/icon-verbal.svg" alt="Verbal" />
+            <p class="mb-0">Verbal</p>
+          </div>
+            <p class="mb-0" style="color: hsl(241, 100%, 89%);font-weight: bold;"><span class="fw-bold text-dark">61</span> /100</p>
+        </div>
+        <div class="d-flex justify-content-between align-items-center mt-3 p-3  rounded-3" style="background-color: hsla(234, 85%, 45%,0.1);">
+          <div class="d-flex align-items-center mb-0 gap-2" style="color: hsl(234, 85%, 45%)">
+            <img src="./assets/images/icon-visual.svg" alt="" />
+            <p class="mb-0">Visual</p>
+          </div>
+            <p class="mb-0" style="color: hsl(241, 100%, 89%);font-weight: bold;"><span class="fw-bold text-dark">73</span> /100</p>
+        </div>
+        <!-- <div class="d-flex justify-content-between align-items-center mt-4 p-3  rounded-3" style="background-color: hsla(234, 85%, 45%,0.1);"> -->
+          <button class="btn text-center w-100 mt-4  p-3 rounded-5 text-light" style="background-color: hsl(224, 30%, 27%);">Continue</button>
+        <!-- </div> -->
+      </div>
+    </div>
+
+
+  </div>
+</div>
+  <!-- Your Result
+  76
+  of 100
+
+  Great
+  You scored higher than 65% of the people who have taken these tests.
+  
+  Summary
+
+  Reaction
+  80 / 100
+
+  Memory
+  92 / 100
+
+  Verbal
+  61 / 100
+
+  Visual
+  72 / 100
+
+  Continue
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>

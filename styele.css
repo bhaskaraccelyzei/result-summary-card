@@ -1,0 +1,36 @@
+body{
+    background-color: hsl(221, 100%, 96%);
+        font-family: 'Hanken Grotesk', sans-serif;
+        font-weight: 500;
+}
+.result-card{
+    /* background-color: hsl(252, 100%, 67%)
+     */
+     background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
+.score-box{
+    /* color: white;
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0)); */
+    width: 10rem;
+  height: 10rem;
+  background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0)); /* Background gradient */
+  border-radius: 50%; /* Makes it a circle */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white; /* Text color */
+  font-weight: bold;
+  margin: 20px auto; /* Centering */
+
+}
+
+.result-card{
+    display: grid;
+    grid-template-rows: 10% 50% 1fr;
+    place-items: center;
+}
+
+.card{
+    height: 60%;
+}
